@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class Calculator {
 
-    public static Map<String, Long> wordcount1 = Files.lines(Paths.get("plik"))
+    public static Map<String, Long> wordcount11 = Files.lines(Paths.get("plik"))
             .flatMap(line -> Stream.of(line.split(" ")))
             .map(String::toLowerCase)
             .collect(Collectors.groupingBy(
