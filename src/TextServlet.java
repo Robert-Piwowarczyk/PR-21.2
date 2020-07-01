@@ -16,9 +16,9 @@ public class TextServlet extends HttpServlet {
 
         String result = "";
         if(words != null) {
-            result += "Ilość słów: " + Calculator.wordcount1;
+            result += "Ilość słów: " + Calculator.wordcount11;
         } else {
-             result += "Tekst nie zawiera słów" ;
+             result += "Tekst nie zawiera słów." ;
         }
 
         if(characters != null) {
